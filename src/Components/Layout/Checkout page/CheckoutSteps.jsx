@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const CheckoutSteps = ({ active }) => {
   return (
     <div className="w-full flex justify-center">
-      <div className="w-full justify-center flex items-center ">
+      <div className="w-full justify-center flex items-center flex-wrap">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
